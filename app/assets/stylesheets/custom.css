@@ -1,0 +1,51 @@
+/* Center the table and apply max-width */
+.table-container {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+    overflow-x: auto; /* Handle overflow */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f4f4f4;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  table th.author, table td.author {
+    min-width: 120px; /* Minimum width */
+    max-width: 200px; /* Maximum width */
+  }
+  
+  table th.published_at, table td.published_at {
+    min-width: 150px; /* Minimum width */
+    max-width: 250px; /* Maximum width */
+  }
+  
+  table th.status, table td.status {
+    min-width: 80px; /* Minimum width */
+    max-width: 120px; /* Maximum width */
+  }
+  
+  table th, table td {
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
