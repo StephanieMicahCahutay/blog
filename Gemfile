@@ -15,8 +15,17 @@ gem "pg", "~> 1.1"
 gem 'rubocop', require: false
 gem 'rubocop-rails'
 
+# Add for pagination
+gem 'kaminari'
+
+# Add API documentation
+gem 'apipie-rails'
+
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
+
+# Add serializers 
+gem 'active_model_serializers', '~> 0.10.0'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem "importmap-rails"
